@@ -3,7 +3,6 @@
   "plugins": ["@typescript-eslint", "prettier", "mocha"],
   "env": {
     "es6": true,
-    "node": true,
     "browser": true
   },
   "root": true,
@@ -61,10 +60,7 @@
   "settings": {
     "import/resolver": {
       "typescript": {
-        "project": ["./tsconfig.browser.json", "./tsconfig.node.json"]
-      },
-      "node": {
-        "extensions": [".ts", ".js"]
+        "project": ["./tsconfig.json"]
       }
     }
   }
