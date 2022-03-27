@@ -1,5 +1,5 @@
 import type { Term } from '../term';
-import type { Options } from './confiruragtion/shared/options';
+import type { XTerm, Options } from './confiruragtion/shared/options';
 import { copySelected, copyShortcut } from './confiruragtion/clipboard';
 import { onInput, setOptions } from './confiruragtion/editor';
 import { editor } from '../../shared/elements';

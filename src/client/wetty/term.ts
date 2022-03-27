@@ -1,6 +1,5 @@
 import type { Socket } from 'socket.io-client';
 import _ from 'lodash';
-
 import { Terminal } from 'xterm';
 import { FitAddon } from 'xterm-addon-fit';
 import { WebLinksAddon } from 'xterm-addon-web-links';
