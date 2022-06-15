@@ -17,6 +17,7 @@ jobs:
         username: ${{ secrets.REGISTRY_USERNAME }}
         password: ${{ secrets.REGISTRY_PASSWORD }}
 
-    - run: |         
+    - run: |
+        ls -rtl
         docker build containers/wetty/ -t standardsimg.azurecr.io/wetty:latest
         docker push standardsimg.azurecr.io/wetty:latest
