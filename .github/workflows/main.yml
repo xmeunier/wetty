@@ -18,5 +18,5 @@ jobs:
         password: ${{ secrets.REGISTRY_PASSWORD }}
 
     - run: |         
-        docker build raspberry/ -t standardsimg.azurecr.io/wetty:latest
+        docker build containers/wetty/ -t standardsimg.azurecr.io/wetty:latest
         docker push standardsimg.azurecr.io/wetty:latest
